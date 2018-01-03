@@ -1,0 +1,258 @@
+* {
+  border:0px;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0px;
+}
+
+body {
+  border:0px;
+  margin: 0px;}
+/*Agregando el formato al navejagor con pisicion fija para que permanezca fijo a pesar de ir a otras seccioes*/
+
+nav {
+  position: fixed;
+  vertical-align: super;
+  width: 100%;
+}
+
+nav>div>a {
+  font-size: 16pt;
+  margin-top: -30px;
+  margin-left: 40px;
+  padding: 10px;
+}
+
+nav>img {
+  margin-left: 80px;
+  margin-top: 30px;
+}
+
+nav>div>a {
+  color:white;
+  display: inline-block;
+  margin: -25px 40px 0 0;
+  text-decoration: none;
+}
+
+/* Agregar la pseudo clase hoover para que cambien de color cada vez que  paso el cursor por el enlace*/
+
+nav>div>a:hover {
+color: #FF00BF;
+}
+
+.form {
+  color:#352384;
+  font-weight: 900;
+}
+
+.form1 {
+color: #641B7E;
+}
+
+/* En el header donde esta el form utilizo una position absolute para sacarlo del flujo de la página y darle formato, ya que de otra manera afecta a otros elementos*/
+
+header {
+  background-color: white;
+  display: inline-block;
+  height:419.2px;
+  margin: 159px 0px 0px 925px;
+  padding:50px;
+  position: absolute;
+  z-index: 2;
+}
+
+/* Agregar el formato del form del inicio*/
+
+header>form {
+  border: 1px solid red;
+  border-radius: 5px;
+  height:47.4px;
+  weight:446.583px;
+}
+
+header>p {
+  font-size: 8pt;
+}
+
+h2 {font-size: 16pt;}
+
+h1, h2, h5 {
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 12pt;
+}
+
+/* Agrego formato al footer*/
+
+footer {
+  clear: both;
+  background-color: #333447;
+  font-size: 12pt;
+  height: 450px;
+  padding-top: 60px;
+  vertical-align :top;
+}
+
+/*Agregar formato a los divs que estan en el footer*/
+
+footer>.left {
+  margin: 20px 30px 40px 145px;
+}
+
+footer>.center {
+  margin: -160px 30px 40px 340px;
+}
+
+footer>.rigth {
+  letter-spacing: 1px;
+  margin: -160px 30px 40px 526px;
+}
+
+footer>article >a {
+  color:white;
+  line-height: 1.5em;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+footer>article>a:hover {
+  color: #FF00BF;
+  text-decoration: underline;
+}
+
+footer>.logos {
+  color:white;
+  display: inline-block;
+  margin:  0px 0px 0px 541px;
+  padding: 10px;
+}
+
+/*Agregando formato a los logos*/
+
+footer>.logos >.icon-facebook, .icon-instagram, .icon-twitter {
+  border: 1px solid white;
+  border-radius: 20px;
+  margin:  0px 60px 0px 0px;
+  padding: 10px;
+}
+
+/*Insertando como background la imagen */
+
+.section-1 {
+    background-image: url('assets/images/hero.gif');
+}
+
+/* Agregando el degradado de fondo*/
+
+.section-2 {
+  background: linear-gradient(#691B84, #76278F, #2B1E66);
+  margin: -546px 0px 80px 0px;
+}
+
+.section-2>img {
+  margin: 20px 10px 50px 713px;
+}
+
+.section-3 {
+  margin: -80px 20px 0px 20px;
+  overflow: hidden;
+}
+
+.text {
+  border:0px;
+  color: white;
+  display: inline-block;
+  margin: 70px 0px 20px 40px;
+  overflow: hidden;
+}
+
+.text3 {
+  clear: both;
+  font-size: 12pt;
+  height: 506.233px;
+  overflow: hidden;
+  width:29%;
+}
+
+.text3>h4 {
+  margin-top: 100PX;
+}
+
+/*Formato a los videos*/
+
+.video {
+  display: inline-block;
+  overflow: hidden;
+}
+
+/*Las clases floats que son utilizados en la section 3*/
+
+.float-left {
+  float: left;
+}
+
+.float-rigth {
+  float: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.touppercase {
+  text-transform: uppercase;
+}
+
+/* Utilizo los id fist y second para darle formato  a los  links del navegador*/
+#first {
+  margin-left: 796px;
+}
+
+#second {
+  border-color: white;
+  border-radius: 5px;
+}
+
+/*  Id que son utilizados en los logos*/
+
+#google {
+  margin: -170px 0px 117px 1020px;
+  vertical-align: super;
+}
+
+#playstore{
+  margin: -144px 0px 40px 1020px;
+  vertical-align: middle;
+}
+
+#apple{
+  margin: -63px 0px 40px 1020px;
+}
+
+#end {
+  color: white;
+  display: inline-block;
+  margin: 30px 5px 0px 546px;
+  text-decoration: none;
+}
+
+/* */
+#end2 {
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+}
+
+#end3 {
+  color: white;
+  display: inline-block;
+  margin-left: 5px;
+  text-decoration: none;
+}
