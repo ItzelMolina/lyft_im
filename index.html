@@ -11,116 +11,106 @@
     <link rel="stylesheet" href="assets/fonts/style.css">
   </head>
   <body>
-    <nav>
-        <!--Agregando el logo-->
-          <img src="assets/images/logo-white.png" alt="logo" width="60" height="60">
+    <div id="container">
+      <header>
         <div>
-          <!--Agregando las ligas del navegador-->
-           <a  id="first" href="https://www.lyft.com/conduce-con-lyft"> Drive</a> </li>
-           <a href="#"> Explore</a> </li>
-           <a href="https://help.lyft.com/hc/en-us"> Help</a> </li>
-           <a id="second" href="https://www.lyft.com/login"> Log in </a></li>
+          <a>Drive</a>
+          <a>Explore</a>
+          <a>Help</a>
+          <a>LOG IN</a>
         </div>
-    </nav>
-    <header>
-      <h1 class="form"> TURN MILES</h1>
-      <h2 class="form">INTO MONEY</h2>
-      <p class="form1" >SIGN UP TO DRIVE WITH LIFT</p>
-      <!--Agregando el formulario que aparecera en el inicio-->
-      <form>
-        <label for="Phone Number"></label><br />
-        <input id="Phone Number" class="input" placeholder="Phone Number" type="text" value="" /><br />
-      </form>
-      <!--Agregando los links que aparecen en el formulario-->
-      <p>Already applied? <a href="https://account.lyft.com/auth?next=https%3A%2F%2Fwww.lyft.com%2Fdrivers%2Fapply%2Fresume" >Check the status of your application here.</a> </br>Earn money for inviting friends to drive. <a href="https://account.lyft.com/auth?next=https%3A%2F%2Fwww.lyft.com%2Fdrive%2Freferrals ">Learn more</a></p>
-    </header>
-<!--sección uno-->
-    <section class="section-1">
-      <!--Agregando la imagen del fondo-->
-      <img src="assets/images/hero.gif" alt="hero" width="100%">
-      <div class="text-left text">
-        <h2 class="text-left touppercase">A Ride in Minutes</h2></br>
-        <p class="text-left ">Request a ride and you’ll be on your way in minutes.</br> Request. Ride. Repeat.</p></br>
-        <h2 class="text-left  touppercase">Serious About Safety</h2></br>
-        <p class="text-left ">From knowing the color of your driver’s car to our 24/7 </br> Trust & Safety Team, we got you.</p></br>
-        <h2 class="text-left  touppercase">Happy Drivers. </br></br> Happy Riders.</h2></br>
-        <p class="text-left ">Ride with us and you’ll see why 9 out of 10 rides end with</br> five stars.</p>
+      </header>
+      <div>
+        <section id="turn_miles">
+          <h1>TURN MILES</h1>
+          <h1>INTO MONEY</h1>
+          <p class="sign-up">SIGN UP TO DRIVE WITH LYFT</p>
+          <form>
+            <input type="tel" name="phone_number" placeholder="Phone number" /><br>
+            <button>Become a driver</button>
+            <a href="#">Sing up to ride</a>
+          </form>
+          <p>Already applied?<a href="#">Check the status of your application here.</a></p>
+          <p>Earn money for inviting friends to drive.<a href="#">Learn more</a></p>
+        </section>
       </div>
-   </section>
-<!--sección dos-->
-    <section class="section-2">
-      <img src="assets/images/phone.png" width="515px" height="547px"alt="phone">
+    </div>
+    <section id="important_info">
+        <div id="ride">
+          <h3>A RIDE IN MINUTES</h3>
+          <p>Request a ride and you’ll be on your way in minutes.</p>
+          <p>Request. Ride. Repeat.</p>
+          <h3>SERIOUS ABOUT SAFETY</h3>
+          <p>From knowing the color of your driver’s car to our 24/7</p>
+          <p>Trust &#169; Safety Team, we got you.</p>
+          <h3>HAPPY DRIVERS.</h3>
+          <h3>HAPPY RIDERS.</h3>
+          <p>Ride with us and you’ll see why 9 out of 10 rides</p>
+          <p>end with five stars.</p>
+        </div>
+        <div id="cellphone">
+          <img src="./assets/images/phone.png">
+        </div>
     </section>
-<!--sección tres-->
-    <section class="section-3">
-      <div  class=" text-left text3 float-left ">
-        <h4 class="touppercase">watch</h4>
-        <h2><strong>AMPLIFU YOUR RIDE</strong></h2>
-        <h3>Lift´s new emblem, Amp, is the secret to </br> smooth pickups.Lighting up dashboards</br> nationwidw, the device makes it easy for</br>passengers and drivers to finnd each other.</h3>
+    <section id="a_new_way_to_glow">
+      <div class="watch">
+        <h6>WATCH</h6>
+        <p>AMPLIFY YOUR RIDE</p>
+        <p>Lyft's new emblem, Amp, is the secret to smooth pickups. Lighting up dashboards nationwide, the device makes it easy for passengers and drivers to find each other</p>
       </div>
-      <!--Agegando los videos de la seccion 3 y la clase float para darle el formato-->
-      <div class="video float-rigth">
-        <iframe width="899.33" height="506.233" src="https://www.youtube.com/embed/fLSmUWOYpKw" frameborder="0" allowfullscreen></iframe>
-      </div>
-
-      <div  class="text-left text3 float-rigth">
-        <h4 class="touppercase">watch</h4>
-        <h2><strong>JUNE</strong></s</h2>
-        <h3>In an animated short film by Academy </br> Award-winner John Kahrs, a lonely widow </br>in historic South Chicago is empowered to</br>start sharing the ride-and sharing her life, </br>too.</h3>
-      </div>
-      <!--Agegando los videos de la seccion 3 y la clase float para darle el formato-->
-      <div class="video float-left">
-        <iframe width="899.333" height="506.233" src="https://www.youtube.com/embed/V7j8Aqxmbs8" frameborder="0" allowfullscreen></iframe>
-      </div>
-
-      <div  class=" text-left text3 float-left">
-        <h4 class="touppercase">watch</h4>
-        <h2><strong>A GOOD THING GOING</strong></h2>
-        <h3>Lauching on TV and online, "Ride on the</br>Bright Side" shows how Lift continues to</br> prioritize happy drivers, short ETAs, and</br>afety.</h3>
-      </div>
-      <!--Agegando los videos de la seccion 3 y la clase float para darle el formato-->
-      <div class="video float-rigth ">
-        <iframe width="899.333" height="506.233" src="https://www.youtube.com/embed/xj2VWLV0xCU" frameborder="0" allowfullscreen></iframe>
-      </div>
-     </section>
+      <iframe id="first_video" width="560" height="315" src="https://www.youtube.com/embed/fLSmUWOYpKw" frameborder="0" allowfullscreen></iframe>
+    </section>
+    <section id="june">
+      <div class="watch float-right">
+        <h6>WATCH</h6>
+        <p>JUNE</p>
+        <p>In an animated short film by Academy Award-winner John Kahrs, a lonely widow in historic South Chicago is empowered to start sharing the ride - and sharing her life, too.</p>
+        </div>
+        <iframe id="second_video" width="560" height="315" src="https://www.youtube.com/embed/V7j8Aqxmbs8" frameborder="0" allowfullscreen></iframe>
+    </section>
+    <section id="showing_up_quick">
+      <div class="watch">
+        <h6>WATCH</h6>
+        <p>A GOOD THING GOING</p>
+        <p>Launching on TV and online, "Ride on the bright side" shows how Lyft continues to prioritize happy drivers, short ETA's, and safety.</p>
+        </div>
+        <iframe id="third_video" width="560" height="315" src="https://www.youtube.com/embed/xj2VWLV0xCU" frameborder="0" allowfullscreen></iframe>
+    </section>
     <footer>
-    <!--Meter los links del footer-->
        <article class="left">
-         <a href="https://account.lyft.com/auth?next=https%3A%2F%2Fwww.lyft.com%2Flogin%2Fjump"><strong>LOGIN IN</strong></a></br>
-         <a href="https://help.lyft.com/hc/en-us">Help</a></br>
-         <a href="https://www.lyft.com/cities">Cities</a></br>
-         <a href="https://www.lyft.com/airports">Airports</a></br>
-         <a href="https://www.lyft.com/fare-estimate">Fare Estimate</a></br>
+         <a><strong>LOGIN IN</strong></a></br>
+         <a>Help</a></br>
+         <a>Cities</a></br>
+         <a>Airports</a></br>
+         <a>Fare Estimate</a></br>
        </article>
        <article class="center">
-         <a href="#"><strong>PARNER </strong></a></br>
-         <a href="https://www.lyft.com/partnerships">Partherships</a></br>
-         <a href="">Enterprise</a></br>
-         <a href="#">Ambassadors</a></br>
-         <a href="https://www.lyft.com/developers">Developers</a></br>
+         <a><strong>PARNER </strong></a></br>
+         <a>Partherships</a></br>
+         <a>Enterprise</a></br>
+         <a>Ambassadors</a></br>
+         <a>Developers</a></br>
        </article>
        <article class="rigth">
-         <a href="#"><strong>LEAR</strong></a></br>
-         <a href="https://www.lyft.com/safety">Safety</a></br>
-         <a href="https://blog.lyft.com/">Blogg</a></br>
-         <a href="https://www.lyft.com/press">Press</a></br>
-         <a href="https://www.lyft.com/jobs">Careers</a></br>
+         <a><strong>LEAR</strong></a></br>
+         <a>Safety</a></br>
+         <a>Blogg</a></br>
+         <a>Press</a></br>
+         <a>Careers</a></br>
        </article>
-       <!--Agregando los logos y links del footer applestore-->
        <article>
-         <a href="https://itunes.apple.com/us/app/lyft-on-demand-ridesharing/id529379082?mt=8"> <img id="google" src="assets/images/google-play.png" width="140px" height ="65px"></a>
-         <a href="https://play.google.com/store/apps/details?id=me.lyft.and0roid"><img  id="playstore"src="assets/images/microsoft.png" width="140px" height ="65px"></a>
-         <a href="https://play.google.com/store/apps/details?id=me.lyft.android"><img  id="apple"   src="assets/images/apple-store.svg" width="160px" height ="75px"></a>
+         <a> <img id="google" src="assets/images/google-play.png" width="140px" height ="65px"></a>
+         <a><img  id="playstore"src="assets/images/microsoft.png" width="140px" height ="65px"></a>
+         <a><img id="apple"   src="assets/images/apple-store.svg" width="160px" height ="75px"></a>
         </article>
-        <!--Agregando los iconos del facebook, instagram y twitter-->
         <div class="logos">
            <span class="icon-facebook"></span>
            <span class="icon-instagram"></span>
            <span class="icon-twitter"></span>
         </div>
         <hr>
-        <p id="end">© 2017 Lyft,Inc.</p> <a id="end2" href="https://www.lyft.com/terms">Terms</a>
-        <a id="end3" href="https://www.lyft.com/privacy">termsprivacy</a>
+        <p id="f1">© 2017 Lyft,Inc.</p> <a id="f2">Terms </a>
+        <a id="f3">termsprivacy</a>
     </footer>
   </body>
 </html>

@@ -1,102 +1,65 @@
+/*tags*/
 * {
-  border:0px;
   font-family: 'Montserrat', sans-serif;
-  margin: 0px;
 }
 
 body {
   border:0px;
-  margin: 0px;}
-/*Agregando el formato al navejagor con pisicion fija para que permanezca fijo a pesar de ir a otras seccioes*/
-
-nav {
-  position: fixed;
-  vertical-align: super;
-  width: 100%;
+  margin: 0px;
 }
-
-nav>div>a {
-  font-size: 16pt;
-  margin-top: -30px;
-  margin-left: 40px;
-  padding: 10px;
-}
-
-nav>img {
-  margin-left: 80px;
-  margin-top: 30px;
-}
-
-nav>div>a {
-  color:white;
-  display: inline-block;
-  margin: -25px 40px 0 0;
-  text-decoration: none;
-}
-
-/* Agregar la pseudo clase hoover para que cambien de color cada vez que  paso el cursor por el enlace*/
-
-nav>div>a:hover {
-color: #FF00BF;
-}
-
-.form {
-  color:#352384;
-  font-weight: 900;
-}
-
-.form1 {
-color: #641B7E;
-}
-
-/* En el header donde esta el form utilizo una position absolute para sacarlo del flujo de la página y darle formato, ya que de otra manera afecta a otros elementos*/
 
 header {
-  background-color: white;
-  display: inline-block;
-  height:419.2px;
-  margin: 159px 0px 0px 925px;
-  padding:50px;
-  position: absolute;
-  z-index: 2;
+	height: 100px;
+	padding: 30px 150px;
+	position: fixed;
 }
 
-/* Agregar el formato del form del inicio*/
-
-header>form {
-  border: 1px solid red;
-  border-radius: 5px;
-  height:47.4px;
-  weight:446.583px;
+header div {
+	display: inline-block;
+	line-height: 50px;
 }
 
-header>p {
-  font-size: 8pt;
+header div a {
+	padding: 0px 15px;
+	color: white;
 }
 
-h2 {font-size: 16pt;}
-
-h1, h2, h5 {
-  font-weight: 700;
-  margin-bottom: 1rem;
+input {
+	border: none;
+	border-bottom: 1px solid gray;
+	padding-bottom: 5px;
+	width: 100%;
 }
 
-h3 {
-  font-size: 12pt;
+input .placeholder {
+	color: gray;
 }
 
-/* Agrego formato al footer*/
+button {
+	margin-top: 10px;
+	background-color: #FF00BF;
+	padding: 15px;
+	color: white;
+	border-radius: 5px;
+	border: none;
+	font-weight: bold;
+}
+
+form {
+	margin-bottom: 30px;
+}
+
+form a {
+	color: gray;
+	margin-left: 15px;
+}
 
 footer {
-  clear: both;
   background-color: #333447;
   font-size: 12pt;
   height: 450px;
   padding-top: 60px;
-  vertical-align :top;
 }
-
-/*Agregar formato a los divs que estan en el footer*/
 
 footer>.left {
   margin: 20px 30px 40px 145px;
@@ -130,8 +93,6 @@ footer>.logos {
   padding: 10px;
 }
 
-/*Agregando formato a los logos*/
-
 footer>.logos >.icon-facebook, .icon-instagram, .icon-twitter {
   border: 1px solid white;
   border-radius: 20px;
@@ -139,78 +100,99 @@ footer>.logos >.icon-facebook, .icon-instagram, .icon-twitter {
   padding: 10px;
 }
 
-/*Insertando como background la imagen */
-
-.section-1 {
-    background-image: url('assets/images/hero.gif');
+#container {
+	background-image: url("../assets/images/hero.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 600px;
+	position: relative;
 }
 
-/* Agregando el degradado de fondo*/
-
-.section-2 {
-  background: linear-gradient(#691B84, #76278F, #2B1E66);
-  margin: -546px 0px 80px 0px;
+#turn_miles {
+	background-color: white;
+	height: 300px;
+	padding: 64px;
+	position: absolute;
+	right: 0%;
+	top: 100px;
+	width: 430px;
 }
 
-.section-2>img {
-  margin: 20px 10px 50px 713px;
+#turn_miles h1 {
+	color: #352384;
+	font-size: 2.7em;
+	font-weight: bold;
+	margin: 0px;
 }
 
-.section-3 {
-  margin: -80px 20px 0px 20px;
-  overflow: hidden;
+#turn_miles .sign-up {
+	color: #352384;
 }
 
-.text {
-  border:0px;
-  color: white;
-  display: inline-block;
-  margin: 70px 0px 20px 40px;
-  overflow: hidden;
+#turn_miles p, p > a {
+	font-size: x-small;
 }
 
-.text3 {
-  clear: both;
-  font-size: 12pt;
-  height: 506.233px;
-  overflow: hidden;
-  width:29%;
+#turn_miles p > a {
+	color: #FF00BF;
+	font-weight: bold;
+	text-decoration: none;
+
 }
 
-.text3>h4 {
-  margin-top: 100PX;
+#important_info {
+	background: linear-gradient(#76278F, #2B1E66);
+	height: 600px;
+	position: relative;
 }
 
-/*Formato a los videos*/
-
-.video {
-  display: inline-block;
-  overflow: hidden;
+#ride h3 {
+	margin: 0px;
+	font-size: xx-large;
+	font-weight: bolder;
 }
 
-/*Las clases floats que son utilizados en la section 3*/
-
-.float-left {
-  float: left;
+#ride {
+	color: white;
+	left: 200px;
+	position: absolute;
+	top: 50px;
 }
 
-.float-rigth {
-  float: right;
+#cellphone {
+	position: absolute;
+	right: 200px;
+	top: 30px;
+	width: 470px;
 }
 
-.text-center {
-  text-align: center;
+#cellphone img {
+	width: 100%;
 }
 
-.text-left {
-  text-align: left;
+#a_new_way_to_glow, #june, #showing_up_quick {
+	position: relative;
+	height: 400px;
 }
 
-.touppercase {
-  text-transform: uppercase;
+#first_video, #third_video {
+	height: 400px;
+	width: 900px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
 }
 
-/* Utilizo los id fist y second para darle formato  a los  links del navegador*/
+#second_video {
+	height: 400px;
+	width: 900px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
 #first {
   margin-left: 796px;
 }
@@ -219,8 +201,6 @@ footer>.logos >.icon-facebook, .icon-instagram, .icon-twitter {
   border-color: white;
   border-radius: 5px;
 }
-
-/*  Id que son utilizados en los logos*/
 
 #google {
   margin: -170px 0px 117px 1020px;
@@ -236,23 +216,20 @@ footer>.logos >.icon-facebook, .icon-instagram, .icon-twitter {
   margin: -63px 0px 40px 1020px;
 }
 
-#end {
+#f1, #f2, #f3 {
   color: white;
   display: inline-block;
-  margin: 30px 5px 0px 546px;
-  text-decoration: none;
 }
 
-/* */
-#end2 {
-  color: white;
-  display: inline-block;
-  text-decoration: none;
+/*clases*/
+
+.float-right {
+	position: absolute;
+	right: 0px;
 }
 
-#end3 {
-  color: white;
-  display: inline-block;
-  margin-left: 5px;
-  text-decoration: none;
+.watch {
+	text-align: left;
+	width: 23%;
+	padding: 5%;
 }
